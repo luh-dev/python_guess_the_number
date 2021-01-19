@@ -13,9 +13,11 @@ while tentativas <= 5:
         print('acertou!')
         break
     else:
-        tentativas= tentativas+1
+
         print('errou, tentativa numero',tentativas)
         if numero_digitado > numero_x:
             print('dica:o numero digitado e maior do que o numero para adivinhar!')
         else:
             print('dica:o numero digitado e menor do que o numero para adivinhar!')
+
+        tentativas = tentativas +1
